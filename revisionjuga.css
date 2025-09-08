@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dark {
+  background-color: black;
+}
+
+.jugadores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.pintar {
+  border: solid 2px black;
+  height: 150px;
+  width: 200px;
+}
+
+.info-jugador {
+  margin: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #007bff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.lista {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+}
